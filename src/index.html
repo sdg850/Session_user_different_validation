@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" type="module" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Session2</title>
+</head>
+
+<body>
+    <main class="main">
+        <form action="/" class="form" name="form" id="form" method="get">
+            <h2 class="title" name="form__title" id="tittle">Sign up</h2>
+            <div class="form__main-container">
+                <label for="name" class="form__main-container__label" id="label_name">Name</label>
+                <input type="text" class="form__main-container__input" id="name" placeholder="Name" name="name">
+                <div></div>
+                <div  data-messages></div>
+                <label for="password" class="form__main-container__label" id="Label_password">Password</label>
+                <input type="password" class="form__main-container__input" id="password" placeholder="Password"
+                    name="password">
+                <div></div>
+                <div data-messages></div>
+            </div>
+
+            <button type="submit" class="btn" id="btn">Submit</button>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
